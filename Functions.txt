@@ -1,4 +1,5 @@
 // FLATTEN LIST
+
 def is_flatten (l):
     flatten_list = []
     for i in l:
@@ -11,11 +12,14 @@ def is_flatten (l):
                 else:
                     for i2 in i1:
                         flatten_list.append(i2)
-                    
-        
+                        
     return flatten_list
     
+    
+    
+   
     // REVERSE LIST
+    
     def reverse_all (l):
     a = l[::-1]
     for i in a:
